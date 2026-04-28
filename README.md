@@ -2,7 +2,9 @@
 
 ## requirements
 
-pip3 install pytorch, opencv-python
+pip3 install pytorch, opencv-python, ultralytics
+
+ultralytics is YOLOv13 version
 
 ## train:
 
@@ -22,8 +24,8 @@ using SIMD dataset. check `dataset.yaml` for details.
 
 ## file location
 
-* yaml location:`./yolov13.yaml`
+* yaml location: `./yolov13.yaml`
 
-* module location `./ultralytics/nn/modules/block`
+* module location: add `module.py` to `./ultralytics/nn/modules/block.py`
 
 
